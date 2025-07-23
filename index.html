@@ -1,10 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Welcome to My Website!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <p>This is my personal website hosted on GitHub Pages.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Syed Fiza | Personal Website</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+      color: #222;
+      min-height: 100vh;
+    }
+    header {
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 40px 20px 20px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.7rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #0366d6;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+      color: #555;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+      padding: 32px 24px;
+    }
+    h2 {
+      color: #0366d6;
+      margin-top: 0;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .social {
+      text-align: center;
+      margin: 30px 0 10px 0;
+    }
+    .social a {
+      display: inline-block;
+      margin: 0 12px;
+      color: #0366d6;
+      font-size: 1.7rem;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .social a:hover {
+      color: #0051a3;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 16px 6px; }
+      header { padding: 24px 6px 12px 6px; }
+      header h1 { font-size: 1.7rem; }
+    }
+  </style>
+  <!-- Add icons for social links -->
+  <script src="https://kit.fontawesome.com/4b4b1b6b13.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Syed Fiza</h1>
+    <p>Welcome to my personal website! 🚀<br>
+       Explore my projects, interests, and more.</p>
+  </header>
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm Syed Fiza, a developer passionate about web technologies, open-source, and creative projects.
+      This is my digital home on the internet, where you can learn about my work and get in touch!
+    </p>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Project One</strong> – Short description of your project.</li>
+      <li><strong>Project Two</strong> – Another awesome thing you built or worked on.</li>
+      <li><strong>More soon!</strong></li>
+    </ul>
+    <h2>Contact</h2>
+    <p>
+      Feel free to reach out: <a href="mailto:youremail@example.com">youremail@example.com</a>
+    </p>
+    <div class="social">
+      <a href="https://github.com/syedfiza7546" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+      <!-- Add more social links as needed -->
+    </div>
+  </div>
+</body>
 </html>
